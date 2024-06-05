@@ -9,7 +9,7 @@ public class MainScreen {
     Image i2 = i1.getImage();
     ImageIcon i3 = new ImageIcon(i2);
     JLabel image=new JLabel(i3);
-    JLabel text=new JLabel("Electricity Management System");
+    JLabel text=new JLabel("Electricity Bill Management System");
     JProgressBar progressBar=new JProgressBar();
     JLabel message=new JLabel();
     MainScreen() {
@@ -37,7 +37,7 @@ public class MainScreen {
     
     public void addText()
     {
-        text.setFont(new Font("MV Boli",Font.BOLD,22));
+        text.setFont(new Font("MV Boli",Font.BOLD,29));
         text.setBounds(120,300,400,50);
         text.setForeground(Color.black);
         frame.add(text);
